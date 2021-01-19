@@ -1,4 +1,45 @@
-html {
+body {
+    font-family: "Open Sans", Georgia, serif; 
+}
+
+.jumbotron {
+    background-image: linear-gradient(to right, #4983C1, #289D9E); 
+    padding: 40px; 
+    margin: 0; 
+}
+
+h1, h2 {
+    font-family: "Yusei Magic", Verdana, sans-serif; 
+}
+
+header h1 {
+    font-size: 2.75rem; 
+    color: #F8F3DD; 
+}
+
+header h2 {
+    font-size: 1.75rem; 
+    color: #F8D677; 
+}
+
+.navbar {
+    background-color: #F8D677; 
+
+}
+
+#siteNavbar {
+    text-align: center; 
+}
+
+.nav-link {
+    color: #4983C1; 
+}
+
+.nav-link:hover {
+    color: #E17444; 
+}
+
+/* 
     box-sizing: border-box;
     }
 
@@ -119,4 +160,4 @@ a {
 
 a:hover {
     color: #C2910A;
-}
+} */
